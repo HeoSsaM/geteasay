@@ -1,0 +1,403 @@
+@charset "utf-8";
+
+
+.small_box .category01 .bdBox {
+    background: #fff url(../img/section02/icon/camera.png)no-repeat center/60px 60px;
+}
+.small_box .category02 .bdBox {
+    background: #fff url(../img/section02/icon/watch.png)no-repeat center/70px 70px;
+}
+.small_box .category03 .bdBox {
+    background:  #fff url(../img/section02/icon/earphones.png)no-repeat center/50px 50px;
+}
+.small_box .category04 .bdBox {
+    background:#fff url(../img/section02/icon/headset.png)no-repeat center/50px 50px;
+}
+.small_box .category05 .bdBox {
+    background: #fff url(../img/section02/icon/monitor.jpeg)no-repeat center/60px 50px;
+}
+.small_box .category06 .bdBox {
+    background: #fff url(../img/section02/icon/notebook.png)no-repeat center/60px 50px;
+}
+.small_box .category07 .bdBox {
+    background: #fff url(../img/section02/icon/phone.png)no-repeat center/70px 70px;
+}
+.small_box .category08 .bdBox {
+    background: #fff url(../img/section02/icon/tab.png)no-repeat center/60px 50px;
+    
+}
+.small_box .category09 .bdBox {
+    background: #fff url(../img/section02/icon/tv.jpeg)no-repeat center/50px 50px;
+}
+/* .category_swiper01 */
+.category_swiper01 .swiper-wrapper>.swiper-slide01>figure {
+    background: #fff url(../img/section02/카메라/배경없는ver/1-removebg-preview.png) no-repeat center/240px 240px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/10.png)no-repeat center/240px 240px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide03>figure {
+    background: #fff url(../img/section02/카메라/배경없는ver/2.png)no-repeat center/280px 280px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/3-removebg-preview.png)no-repeat center/225px 210px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/4.png)no-repeat center/250px 250px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/5-removebg-preview.png)no-repeat center/250px 250px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/6.png)no-repeat center/275px 275px;
+}
+.category_swiper01 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/7.png)no-repeat center/250px 250px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/8-removebg-preview.png)no-repeat center/250px 250px;
+}
+
+.category_swiper01 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/카메라/배경없는ver/9-removebg-preview.png)no-repeat center/250px 250px;
+}
+
+/* .category_swiper02 */
+.category_swiper02 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_9_45mm_GPS_미드나이트_알루미늄_케이스_스포츠_밴드_ML_미드나이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_8_45mm_셀룰러_실버_스테인리스_스틸_케이스_스포츠_밴드_화이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_SE_2023_40mm_GPS_실버_알루미늄_케이스_스포츠_밴드_SM_스톰_블루__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_SE_나이키_40mm_GPS_실버_알루미늄_케이스_나이키_스포츠_밴드_퓨어_플래티넘_블랙_USB_C_타입__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_7_에르메스_41mm_셀룰러_블랙_스테인리스_스틸_케이스_싱글_투어_누아__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/삼성_갤럭시_워치5_44mm_블루투스_사파이어__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/삼성_갤럭시_워치5_프로_45mm_블루투스_블랙_티타늄__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+.category_swiper02 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/삼성_갤럭시_워치6_44mm_블루투스_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/삼성_갤럭시_워치6_클래식_47mm_LTE_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper02 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/스마트워치/배경없는ver/애플_워치_울트라_49mm_티타늄_케이스_트레일_루프_SM_블랙_그레이__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/260px 280px;
+}
+
+/* .category_swiper03 */
+.category_swiper03 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/애플_에어팟_프로_2세대_맥세이프_호환_USB_C_타입__국내_정식_발매_제품-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/애플_에어팟_3세대_맥세이프_호환__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/삼성_갤럭시_버즈2_오닉스__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/삼성_갤럭시_버즈2_프로_화이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/벨킨_사운드폼_이머스_노이즈캔슬링_블루투스_무선_이어폰_TWS_AUC003_블랙-removebg-preview.png) no-repeat center/280px 280px;
+}
+.category_swiper03 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/낫싱_이어__2__블랙-removebg-preview.png) no-repeat center/430px 430px;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/소니_WF-1000XM5_플래티넘_실버__소니_코리아_정식_발매_제품_-removebg-preview.png) no-repeat center/320px 300px;
+}
+.category_swiper03 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/앤커_사운드코어_VR_P10_게이밍_무선_이어폰-removebg-preview.png) no-repeat center/380px 250px;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/앤커_사운드코어_스페이스_A40_무선_블루투스_이어폰_화이트-removebg-preview.png) no-repeat center/380px 280px;
+}
+
+.category_swiper03 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/무선이어폰/배경없는ver/젠하이저_모멘텀3_트루_와이어리스_무선이어폰__화이트_-removebg-preview.png) no-repeat center/380px 280px;
+}
+/* category_swiper04 */
+
+.category_swiper04 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/애플_에어팟_맥스_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide02>figure {
+    background: #fff url(../img/section02/헤드셋/배경없는ver/소니_WH-CH720N_블루__소니_코리아_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/마샬_메이저_4_블랙_국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/마샬_모니터_2_A.N.C_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/마이크로소프트_모던_와이어리스_헤드셋-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/보스_QC_울트라_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide07>figure {
+    background: #fff url(../img/section02/헤드셋/배경없는ver/보스_울트라_헤드폰_화이트스모크-removebg-preview.png) no-repeat center/cover;
+}
+.category_swiper04 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/비츠_스튜디오_프로_무선_오버_이어_헤드폰_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/소니_WH-1000XM5_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper04 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/헤드셋/배경없는ver/소니_WH-CH520_베이지__소니_코리아_정식_발매_제품_-removebg-preview.png) no-repeat center/260px 260px;
+}
+
+/* .category_swiper05 */
+
+.category_swiper05 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/LG_MyView_스마트_모니터-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper05 .swiper-wrapper>.swiper-slide02>figure {
+    background: #fff url(../img/section02/모니터/배경없는ver/ProArt_Display_PA278CGV-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/LG_울트라_HD_모니터_-removebg-preview.png) no-repeat center/cover;
+}
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/ROG\ Swift\ OLED\ PG48UQ.png) no-repeat center/250px 250px;
+}
+
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/LG_울트라기어_27GP830__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/ROG_Strix_XG249CM-removebg-preview.png) no-repeat center/280px 240px;
+}
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/LG_울트라와이드_34WP65C__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+.category_swiper05 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/ROG_Strix_XG49VQ-removebg-preview.png) no-repeat center/280px 200px;
+}
+
+.category_swiper05 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/LG_울트라파인_5K_27MD5KL__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+
+.category_swiper05 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/모니터/배경없는ver/애플_프로_디스플레이_XDR_나노_텍스쳐_글래스__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;
+}
+
+/* .category_swiper06 */
+
+.category_swiper06 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/LG_그램_360_14_i5-1340P_256기가_SSD__16기가_메모리_토파즈_그린__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/ASUS_TUF_Gaming_F17__2023__FX707VV4-LL017-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/애플_2023_맥북_프로_16_M2_프로_12코어_512기가_SSD__16기가_메모리_스페이스_그레이__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/애플_2022_맥북_에어_13_M2_256기가_SSD__8기가_메모리_스페이스_그레이__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/380px 380px;
+}
+.category_swiper06 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/LG_그램_폴드_i5-1335U_512기가_SSD__16기가_메모리_매트_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/마이크로소프트_서피스_랩탑_5_13.5인치_12세대_코어_i7_512기가_SSD__16기가_메모리_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/ASUS_ROG_Strix_G18_G814JVR-N6052-removebg-preview.png) no-repeat center/250px 250px;
+}
+.category_swiper06 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/삼성_갤럭시_북3_40.6cm_i9_1TB_SSD__32GB_메모리_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/삼성_갤럭시_북3_360_39.6cm_i7_1TB_SSD__32GB_메모리_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper06 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/노트북/배경없는ver/삼성_갤럭시_북_프로_39.6cm_i7_512GB_SSD__16GB_메모리_미스틱_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+/* .category_swiper07 */
+
+.category_swiper07 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/애플_아이폰_15_프로_256기가_내츄럴_티타늄__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_S23_256기가_크림__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_S24+_512기가_코발트_바이올렛__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_Z_폴드5_512기가_아이스_블루__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/270px 270px;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_S23_울트라_512기가_팬텀_블랙__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/270px 270px;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide06>figure {
+    background: #fff url(../img/section02/핸드폰/배경없는ver/애플_아이폰_15_프로_맥스_256기가_블루_티타늄__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/애플_아이폰_15_256기가_블루__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+.category_swiper07 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/애플_아이폰_14_프로_256기가_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_Z_플립5_512기가_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper07 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/핸드폰/배경없는ver/삼성_갤럭시_S24_울트라_1테라_티타늄_오렌지__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/270px 270px;
+}
+/* .category_swiper08 */
+
+.category_swiper08 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/LG_울트라_탭-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/Surface_Pro_9-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/애플_아이패드_프로_6세대_12.9인치_와이파이_128기가_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/270px 270px;
+}
+.category_swiper08 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/애플_아이패드_에어_5세대_와이파이_64기가_스페이스_그레이__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/삼성_갤럭시_탭_A8_와이파이_64기가_그레이__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/삼성_갤럭시_탭_S8_울트라_와이파이_256기가_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/삼성_갤럭시_탭_S9_울트라_와이파이_512기가_그래파이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+.category_swiper08 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/애플_아이패드_미니_6세대_와이파이_256기가_퍼플__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/테블릿/배경없는ver/삼성_갤럭시_탭_S9_와이파이_128기가_베이지__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper08 .swiper-wrapper>.swiper-slide10>figure {
+    background: #fff url(../img/section02/테블릿/배경없는ver/삼성_갤럭시_탭_S8_플러스_와이파이_128기가_실버__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+/* .category_swiper09 */
+
+.category_swiper09 .swiper-wrapper>.swiper-slide01>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/소니_플레이스테이션_5_디지털_에디션__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+.category_swiper09 .swiper-wrapper>.swiper-slide02>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/다이슨_에어랩_멀티_스타일러_컴플리트_빈카_블루_로제__국내_정식_발매_제품-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper09 .swiper-wrapper>.swiper-slide03>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/LG_스탠바이미_27인치_화이트-removebg-preview.png) no-repeat center/cover;;
+}
+
+
+.category_swiper09 .swiper-wrapper>.swiper-slide04>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/엑스박스_시리즈_X__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+
+.category_swiper09 .swiper-wrapper>.swiper-slide05>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/애플_펜슬_USB-C__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+
+.category_swiper09 .swiper-wrapper>.swiper-slide06>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/LG_스탠바이미_고_27LX5QKNA-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+.category_swiper09 .swiper-wrapper>.swiper-slide07>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/애플_에어태그_4개_팩__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+.category_swiper09 .swiper-wrapper>.swiper-slide08>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/닌텐도_스위치_OLED_화이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
+
+
+.category_swiper09 .swiper-wrapper>.swiper-slide09>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/다이슨_슈퍼소닉_헤어_드라이어_니켈_코퍼__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/250px 250px;
+}
+
+
+.category_swiper09 .swiper-wrapper>.swiper-slide10>figure {
+    background:#fff url(../img/section02/기타/배경없는ver/애플_아이패드_프로_12.9인치용_매직_키보드_화이트__국내_정식_발매_제품_-removebg-preview.png) no-repeat center/cover;;
+}
