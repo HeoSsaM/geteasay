@@ -4,2204 +4,1448 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GETEASY</title>
-    <link rel="shortcut icon" href="img/header/logo.png" type="image/x-icon">
-
+    <title>geteasy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/m_index.css">
+    <link rel="stylesheet" href="css/category_swiper_img.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/reset.css">
-    
-    <link rel="stylesheet" href="css/sub3_m.css">
-    
+
 </head>
 
 <body>
-     <!-- aside swiper-->
-     
-    <div class="sub3_wrap">
-        <div class="swiper sub3_main_swiper">
+    <div id="wrap">
+        <header>
+            <div class="inner">
+                <div class="tnb">
+                    <span class="login"><a href="javascript:;">로그인</a></span>
+                    <span class="new"><a href="javascript:;">회원가입</a></span>
+                    <span class="myPage"><a href="javascript:;">마이페이지</a></span>
+                </div>
+                <div class="notice-block">
+                    <div class="notice">
+                        <ul class="rolling">
+                            <li class="call">
+                                <a href="javascript:;" class="link">
+                                    빠른렌탈 상담신청<span>070-5555-8888</span>
+                                    <img src="img/header/call.png" alt="">
+                                </a>
+                            </li>
+                            <li>[공지] 애플매직 키보드 품절</li>
+                            <li>[공지] 에어팟 프로2 *품절임박</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo">
+                    <h1><a href="index.html"><span class="blind">logo</span></a></h1>
+                </div>
+                <div class="search_area">
+                    <form>
+                        <input type=" search" placeholder="상품을 검색하세요">
+                        <button>
+                            <img src="img/header/search.png" alt="검색하기">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="gnb_area">
+                <ul class="gnb">
+                    <li><a href="#section01">브랜드</a></li>
+                    <li><a href="#category">카테고리 별 순위</a></li>
+                    <li><a href="#timesale">세일</a></li>
+                    <li><a href="sub2.html">리뉴제품 </a></li>
+                    <li><a href="#direction">단기렌탈 </a></li>
+                    <li><a href="#direction">장기렌탈</a></li>
+                    <li><a href="#direction">이벤트</a></li>
+                    <li><a href="#direction">이용방법</a></li>
+                    <li><a href="#qna">고객센터</a></li>
+                </ul>
+                <div class="gnb_sub">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="javascript:;">삼성</a></li>
+                            <li><a href="javascript:;">애플</a></li>
+                            <li><a href="javascript:;">LG</a></li>
+                            <li><a href="javascript:;">소니</a></li>
+                            <li><a href="javascript:;">M&middot;S</a></li>
+                            <li><a href="javascript:;">샤오미</a></li>
+                            <li><a href="javascript:;">니콘</a></li>
+                            <li><a href="javascript:;">로지텍</a></li>
+                            <li><a href="javascript:;">아수스</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">카메라</a></li>
+                            <li><a href="javascript:;">스마트워치</a></li>
+                            <li><a href="javascript:;">무선이어폰</a></li>
+                            <li><a href="javascript:;">헤드셋</a></li>
+                            <li><a href="javascript:;">모니터</a></li>
+                            <li><a href="javascript:;">노트북</a></li>
+                            <li><a href="javascript:;">핸드폰</a></li>
+                            <li><a href="javascript:;">태블릿</a></li>
+                            <li><a href="javascript:;">기타</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">타임세일</a></li>
+                            <li><a href="javascript:;">테마별 추천</a></li>
+                            <li><a href="javascript:;">멤버십 추천</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">리뉴란?</a></li>
+                            <li><a href="javascript:;">구매방법</a></li>
+                            <li><a href="javascript:;">구매</a></li>
+                            <li><a href="javascript:;">판매</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">렌탈구독</a></li>
+                            <li><a href="javascript:;">이용방법</a></li>
+                            <li><a href="javascript:;">렌탈취소</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">렌탈구독</a></li>
+                            <li><a href="javascript:;">이용방법</a></li>
+                            <li><a href="javascript:;">렌탈취소</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">쿠폰</a></li>
+                            <li><a href="javascript:;">멤버십</a></li>
+                            <li><a href="javascript:;">포인트</a></li>
+                            <li><a href="javascript:;">이벤트</a></li>
+                            <li><a href="javascript:;">친구초대</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">렌탈 노하우</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="javascript:;">Q&A</a></li>
+                            <li><a href="javascript:;">결제수단</a></li>
+                            <li><a href="javascript:;">공지사항</a></li>
+                            <li><a href="javascript:;">C&middot;S</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="mobile_gnb">
+                <img src="img/header/Mmenu.png" alt="">
+                <ul class="mGnb on">
+                    <li><a href="javascript:;">브랜드</a></li>
+                    <li><a href="javascript:;">카테고리 별 순위</a></li>
+                    <li><a href="javascript:;">세일</a></li>
+                    <li><a href="javascript:;">리뉴제품 </a></li>
+                    <li><a href="javascript:;">단기렌탈 </a></li>
+                    <li><a href="javascript:;">장기렌탈</a></li>
+                    <li><a href="javascript:;">이벤트</a></li>
+                    <li><a href="javascript:;">이용방법</a></li>
+                </ul>
+            </div>
+            <div class="mobile_tnb">
+                <img src="img/header/Mtnb.png" alt="">
+                <div class="mTnb">
+                    <ul>
+                        <li>로그인</li>
+                        <li>회원가입</li>
+                        <li>마이페이지</li>
+                        <li>고객센터</li>
+                        <p>
+                            평일 : 09:00~17:30 <br>
+                            점심 : 12:00~13:00</p>
+                        <span>휴무 주말,공휴일</span>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </header>
+
+
+
+        <div class="swiper main_swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide01">
                     <a href="javascript:;">
-                        <div class="inner">
-                            <div class="mainText_area">
-                                <p class="title">NEW FACE <br>새로 들어왔어요</p>
-                                <p class="text">신규 오픈 순위를 <br>소개합니다</p>
-                            </div>
-                        </div>
+                        <p class="main_text01">1년 보증이 제공되는 GetEasy<br>Apple 제품을 쇼핑해보세요</p>
+                        <button></button>
                     </a>
                 </div>
                 <div class="swiper-slide swiper-slide02">
-                    <a href="javascript:;">
-                        <div class="inner">
-                            <div class="mainText_area">
-                                <p class="title">최신 기술과 <br>트렌드를 반영한<br> 다양한 전자제품</p>
-                                <p class="text">다양한 카테고리 별 <br>순위를 확인해보세요
-                            </div>
-                        </div>
-                    </a>
+                    <div class="dyson">
+                        <img src="img/main/dyson-airwrap-gap.png" alt="">
+                        <img src="img/main/hair-care-dyson-supersonic-motif-varient.png" alt="">
+                    </div>
+                    <p class="main_text02">
+                        렌탈하고<br>
+                        혜택받고
+                        <span>최대 12만원 절약</span>
+                    </p>
+                    <button></button>
                 </div>
                 <div class="swiper-slide swiper-slide03">
-                    <a href="javascript:;">
-                        <div class="inner">
-                            <div class="mainText_area">
-                                <p class="title">살까 말까 <br>고민된다면!</p>
-                                <p class="text">리뉴제품으로 <br>제품을 사용해보세요</p>
-                            </div>
-                        </div>
-                    </a>
+                    <p class="main_text03">
+                        걱정없는 대학생활 <br>
+                        <em>GETEASY</em>에서 시작
+                        <span>학생 장기 렌탈 서비스</span>
+                    </p>
+                    <button></button>
                 </div>
-                <div class="swiper-slide swiper-slide04">
-                    <a href="javascript:;">
-                        <div class="inner">
-                            <div class="mainText_area">
-                                <p class="title">저렴한 가격과 <br>보장된 성능</p>
-                                <p class="text">핸드폰도 리뉴로 <br>사용해보세요</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
             </div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-next">
+
+            </div>
             <div class="swiper-button-prev"></div>
-            <div class="sub3_main_pagination">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-pagination2"></div>
+
+        </div>
+
+
+        <section id="section01">
+            <div class="inner">
+                <h2 class="title">브랜드소개</h2>
+                <div class="swiper brand_swiper">
+                    <div class="brand_swiper_inner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide brand-slide01">
+                                <figure>
+                                    <a href="sub1.html">
+                                        <img src="img/section01/logo/apple.png" alt="애플로고">
+                                    </a>
+                                </figure>
+
+                            </div>
+                            <div class="swiper-slide brand-slide02">
+                                <figure>
+                                    <a href="sub1.html">
+                                        <img src="img/section01/logo/samsung.png" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide03">
+                                <figure>
+                                    <a href="sub1.html">
+                                        <img src="img/section01/logo/e4854545a74e56a972ccc8de35f49ac2-removebg-preview.png"
+                                            alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide04">
+                                <figure>
+                                    <a href="sub1.html"><img src="img/section01/logo/logitech (1).png" alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide05">
+                                <figure>
+                                    <a href="sub1.html"><img src="img/section01/logo/asus.png" alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide06">
+                                <figure>
+                                    <a href="sub1.html"><img src="img/section01/logo/microsoft.png" alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide07">
+                                <figure><a href="sub1.html"><img src="img/section01/logo/sony.png" alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide08">
+                                <figure>
+                                    <a href="sub1.html"><img
+                                            src="img/section01/logo/st_small_507x507-pad_600x600_f8f8f8-removebg-preview.png"
+                                            alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide brand-slide09">
+                                <figure><a href="sub1.html"><img src="img/section01/logo/nikon.png" alt=""></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="category">
+            <div class="inner">
+                <h2 class="title">카테고리별 순위</h2>
+                <div class="small_box">
+                    <div class="category01 on">
+                        <figure class="bdBox"></figure>
+                        <p>카메라</p>
+                    </div>
+                    <div class="category02">
+                        <figure class="bdBox"></figure>
+                        <p>스마트워치</p>
+                    </div>
+                    <div class="category03">
+                        <figure class="bdBox"></figure>
+                        <p>무선 이어폰</p>
+                    </div>
+                    <div class="category04">
+                        <figure class="bdBox"></figure>
+                        <p>헤드셋</p>
+                    </div>
+                    <div class="category05">
+                        <figure class="bdBox"></figure>
+                        <p>모니터</p>
+                    </div>
+                    <div class="category06">
+                        <figure class="bdBox"></figure>
+                        <p>노트북</p>
+                    </div>
+                    <div class="category07">
+                        <figure class="bdBox"></figure>
+                        <p>핸드폰</p>
+                    </div>
+                    <div class="category08">
+                        <figure class="bdBox"></figure>
+                        <p>태블릿</p>
+                    </div>
+                    <div class="category09">
+                        <figure class="bdBox"></figure>
+                        <p>기타</p>
+                    </div>
+                </div>
+                <div class="category_swiper_area">
+                    <div class="swiper category_swiper category_swiper01 on">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">소니 Alpha A7R
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">소니 DSLR-A850
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">소니 fx-0300
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">캐논 EOS R-50
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">캐논 eos r6 ii
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">코닥 스마일 디지털
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">캐논 EOS-1D X Mark
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">무케렌시아 폴라로이드
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">소니 A7C미러리스 카메라
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">소니 알파 NEX-5
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper category_swiper category_swiper02">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">애플 워치 9 44mm
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">애플 워치 8 40mm
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">애플 워치 SE 2023
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">애플 워치 SE Nike
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">애플 워치 7 40mm
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">삼성 갤럭시 워치5
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">삼성 갤럭시 프로
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">삼성 갤럭시 워치6
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">삼성 갤럭시 클래식
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">애플 워치 울트라
+                                                <span class="price">570,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper category_swiper category_swiper03">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">애플 에어팟 프로2
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">애플 에어팟 3세대
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">삼성 갤럭시 버즈2
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">삼성 갤럭시 버즈 Pro
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">벨킨 사운드폼 이머
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">낫싱 이어2 블랙
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">소니 WF-1000X
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">앤커 사운드코어V
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">앤커 사운드코어
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">젠하이저 모멘텀3
+                                                <span class="price">370,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper04">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">애플 에어팟 맥스
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">소니 WH-CH720
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">마샬 메이저4 블랙
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">마샬 모니터2A.N
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">MS 와이어리스
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">보스 QC 울트라
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">보스 울트라 베이지
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">비츠 스튜디오 프로
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">소니 WH-1000X
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">소니 WH-CH520
+                                                <span class="price">500,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper05">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">LG MyView
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">ProArt Display
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">LG 울트라 HD
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">ROG Swift LED
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">LG 울트라기어
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">ROG Strix XG24
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">LG 울트라와이드
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">ROG Strix XG4
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">LG 울트라파인 5K
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">애플 프로 디스플레이
+                                                <span class="price">790,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper06">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">LG 그램 360
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">ASUS TUF Game
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">애플 맥북 프로23
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">애플 맥북 에어22
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">LG 그램 폴드
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">Ms서피스 랩탑5
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">ASUS ROG Strix
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">삼성 갤럭시 북 3
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">삼성 갤럭시 북360
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">삼성 갤럭시 북 프로
+                                                <span class="price">870,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper07">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html"></a>
+                                        <span class="number">1</span>
+                                        <p class="itemN">아이폰 15 pro
+                                            <span class="price">1,000,000원</span>
+                                        </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">삼성 갤럭시 S23
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">삼성 갤럭시 S24
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">갤럭시 Z폴드5
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">갤럭시 S23+
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">아이폰 15 Max
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">아이폰 15
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">아이폰 14pro
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">갤럭시 Z플립5
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html"><span class="number">10</span>
+                                            <p class="itemN">갤럭시 S울트라
+                                                <span class="price">1,000,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper08">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">LG_울트라 탭
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">2</span>
+                                            <p class="itemN">Surface Pro 9
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">3</span>
+                                            <p class="itemN">아이패드 프로
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">4</span>
+                                            <p class="itemN">아이패드 에어
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">5</span>
+                                            <p class="itemN">갤럭시 탭 A8
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">6</span>
+                                            <p class="itemN">갤럭시 탭 S8
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">7</span>
+                                            <p class="itemN">갤럭시탭 울트라
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">8</span>
+                                            <p class="itemN">아이패드 미니6
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">9</span>
+                                            <p class="itemN">갤럭시탭 S9
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">10</span>
+                                            <p class="itemN">갤럭시탭 S8+
+                                                <span class="price">770,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper category_swiper category_swiper09">
+                        <div class="category_swiper_inner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide01">
+                                    <figure><a href="sub3.html">
+                                            <span class="number">1</span>
+                                            <p class="itemN">플레이스테이션5
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide02">
+                                    <figure><a href="sub3.html"><span class="number">2</span>
+                                            <p class="itemN">다이슨 에어랩
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide03">
+                                    <figure><a href="sub3.html"><span class="number">3</span>
+                                            <p class="itemN">스탠바이미 27in
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide04">
+                                    <figure><a href="sub3.html"><span class="number">4</span>
+                                            <p class="itemN">엑스박스 X
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide05">
+                                    <figure><a href="sub3.html"><span class="number">5</span>
+                                            <p class="itemN">애플 펜슬 C타입
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide06">
+                                    <figure><a href="sub3.html"><span class="number">6</span>
+                                            <p class="itemN">LG 스탠바이미
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide07">
+                                    <figure><a href="sub3.html"><span class="number">7</span>
+                                            <p class="itemN">애플 에어태그
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide08">
+                                    <figure><a href="sub3.html"><span class="number">8</span>
+                                            <p class="itemN">닌텐도 스위치 OLED
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide09">
+                                    <figure><a href="sub3.html"><span class="number">9</span>
+                                            <p class="itemN">다이슨 드라이어
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide swiper-slide10">
+                                    <figure><a href="sub3.html"><span class="number">10</span>
+                                            <p class="itemN">애플 매직키보드
+                                                <span class="price">470,000원</span>
+                                            </p>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="timesale">
+            <div class="inner">
+                <div class="time">
+                    <p class="subtext01">JUST</p>
+                    <h3>1 DAY</h3>
+                    <p class="subtext02">~<span>75%</span>SALE</p>
+
+                    <div id="line_inner">
+                        <div id="line"></div>
+                    </div>
+                    <p id="countdown"></p>
+                    <button>상품 더보기</button>
+                </div>
+                <div class="sale item01">
+                    <figure><a href="sub4.html"></a></figure>
+                    <p class="itemname"><strong>삼성 </strong> 갤럭시Z플립3</p>
+                    <span class="discount"><s>1,000,000원</s> 70%</span>
+                    <span class="price">700,000원</span>
+
+                </div>
+                <div class="sale item02">
+                    <figure><a href="sub4.html"></a></figure>
+                    <p class="itemname"><strong>애플 </strong> 에어팟 2세대</p>
+                    <span class="discount"><s>1,000,000원 </s> 70%</span>
+                    <span class="price">700,000원</span>
+                </div>
+                <div class="sale item03">
+                    <figure><a href="sub4.html"></a></figure>
+                    <p class="itemname"><strong>애플 </strong> 아이폰13미니</p>
+                    <span class="discount"><s>1,000,000원</s> 70%</span>
+                    <span class="price mprice">700,000원</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="direction">
+            <div class="inner">
+                <h2 class="title">GETEASY 렌탈노하우</h2>
+                <p class="text">놓치지 말아야 할 렌탈 팁과 노하우,<br>렌탈 서비스를 완전히 이용해보세요!</p>
+                <!-- <button><a href="#"
+                    onclick="$('.popup-base').css('height', $(document).height()); $('.direction-pop').show()">GETEASY 이용방법</a></button> -->
+                <button
+                    onclick="$('.dir_popup-base').css('height', ($(document).height() + 1900)); $('.direction-pop').show()">GETEASY
+                    이용방법</button>
+            </div>
+        </section>
+
+        <div class="dir_popup-base direction-pop">
+            <div class="pop-content">
+                <p class="btn-xpop">
+                    <a href="javascript:;" onclick="$('.dir_popup-base').hide()">닫기</a>
+                </p>
+                <ul class="pop-list">
+                    <li>
+                        <img src="img/section04/eventBg (2).jpg" alt="">
+                        <div class="pop_text_box">
+                            <h2 class="title">GETEASY <br>렌탈노하우</h2>
+                            <p class="text">놓치지 말아야 할 <br>렌탈 팁과 노하우,<br>렌탈 서비스를 <br>완전히 이용해보세요!</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
-       
+        <section id="qna">
+            <div class="inner">
+                <div class="qnabox_area">
+                    <div class="box1">
+                        <h3>Q&A</h3>
+                        <strong>자주묻는 질문</strong>
+                        <p class="text">
+                            <span>1:1문의</span>를 통해서도<br>상담이 가능합니다.
+                        </p>
+                        <button>Q&A 더보기</button>
+                    </div>
+                    <div class="ask box02"
+                        onclick="$('.popup-base').css('height', ($(document).height() + 3000)); $('.ask_box02-pop').show()">
+                        <img src="img/section5/box1.png">
+                        <p class="B_text">제품 분실</p>
+                        <p class="M_text">렌탈제품을 분실했어요.</p>
+                        <p class="S_text">렌탈베품은 소유권이 회사에 있어요.<br>분실 즉시 통보해 주시고 납부 금액을 모두 납부해 주세요.<br>렌탈보험이 적용되어있다면
+                            납부
+                            금액<br>을 줄일수 있어요.</p>
+                    </div>
+
+                    <div class="popup-base ask_box02-pop">
+                        <div class="pop-content">
+                            <p class="btn-xpop">
+                                <a href="javascript:;" onclick="$('.popup-base').hide()">닫기</a>
+                            </p>
+                            <ul class="pop-list">
+                                <li>
+                                    <div class="pop_text_box">
+                                        <img src="img/section5/box1.png" alt="">
+                                        <p class="B_text">제품 분실</p>
+                                        <p class="M_text">렌탈제품을 분실했어요.</p>
+                                        <p class="S_text">렌탈베품은 소유권이 회사에 있어요.<br>분실 즉시 통보해 주시고 납부 금액을 모두 납부해
+                                            주세요.<br>렌탈보험이 적용되어있다면
+                                            납부
+                                            금액<br>을 줄일수 있어요.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
 
-        <!-- section01 -->
-        <div class="inner">
-            <section id="sub3_section01">
+                    <div class="ask box03"
+                        onclick="$('.popup-base').css('height', ($(document).height() + 3000)); $('.ask_box03-pop').show()">
+                        <img src="img/section5/box2.png" alt="">
+                        <p class="B_text">이용 한도</p>
+                        <p class="M_text">이용한도를 알고 싶어요</p>
+                        <p class="S_text">이용한도는 별도로 지정하고 있지<br>않고,렌탈 수량과 품목에 제한을<br>두고 있어요.<br>같은 품목은 1인 최대 1개만 렌탈이
+                            <br>가능해요.
+                        </p>
+                    </div>
 
-                <h2 class="sub3_section_tText">카테고리 별 순위</h2>
-                <p class="sub3_titleText">카메라 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
+                    <div class="popup-base ask_box03-pop">
+                        <div class="pop-content">
+                            <p class="btn-xpop">
+                                <a href="javascript:;" onclick="$('.popup-base').hide()">닫기</a>
+                            </p>
+                            <ul class="pop-list">
+                                <li>
+                                    <div class="pop_text_box">
+                                        <img src="img/section5/box2.png" alt="">
+                                        <p class="B_text">이용 한도</p>
+                                        <p class="M_text">이용한도를 알고 싶어요</p>
+                                        <p class="S_text">이용한도는 별도로 지정하고 있지<br>않고,렌탈 수량과 품목에 제한을<br>두고 있어요.<br>같은 품목은 1인
+                                            최대 1개만 렌탈이
+                                            <br>가능해요.
+                                        </p>
                                     </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            Alpha A7R
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        3,066,690 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            DSLR-A850
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        555,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            fx-0300
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,429,700 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        캐논
-                                        <span class="nameText">
-                                            EOS R-50
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        750,740 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        캐논
-                                        <span class="nameText">
-                                            eos r6 ii
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,575,300 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        코닥
-                                        <span class="nameText">
-                                            스마일 디지털
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        204,930 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        캐논
-                                        <span class="nameText">
-                                            EOS-1D X Mark
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        8,498,150 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        무케렌시아
-                                        <span class="nameText">
-                                            폴라로이드
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        193,160 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            A7C미러리스
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,429,700 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            알파 NEX-5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        221,700 원
-                                    </p>
 
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section02 -->
-        <div class="inner">
-            <section id="sub3_section02">
-                <p class="sub3_titleText">스마트워치 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 9 44mm
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        600,660 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 8 40mm
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        523,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 SE 2023
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        299,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 SE Nike
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        395,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 7 40mm
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        485,110 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 워치 5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        187,860 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 워치 프로
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        291,890 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 워치 6
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        228,390 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 워치 클래식
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        364,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            워치 울트라
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,011,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section03 -->
-        <div class="inner">
-            <section id="sub3_section03">
-                <p class="sub3_titleText">무선이어폰 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            에어팟 프로2
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        312,320 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            에어팟 3세대
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        237,960 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 버즈2
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        85,440 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 버즈 Pro
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        126,230 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        벨킨
-                                        <span class="nameText">
-                                            사운드폼 이머스
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        239,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        낫싱
-                                        <span class="nameText">
-                                            이어2 블랙
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        189,000 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            WF-1000X
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        231,290 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        앤커
-                                        <span class="nameText">
-                                            사운드코어V
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        89,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        앤커
-                                        <span class="nameText">
-                                            사운드코어
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        97,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        젠하이저
-                                        <span class="nameText">
-                                            모멘텀3
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        204,480 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section04 -->
-        <div class="inner">
-            <section id="sub3_section04">
-                <p class="sub3_titleText">헤드셋 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            에어팟 맥스
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        695,990 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            WH-CH720
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        185,900 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        마샬
-                                        <span class="nameText">
-                                            메이저4 블랙
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        151,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        마샬
-                                        <span class="nameText">
-                                            모니터2A.N.C
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        399,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        MS
-                                        <span class="nameText">
-                                            와이어리스
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        121,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        보스
-                                        <span class="nameText">
-                                            QC 울트라
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        499,000 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        보스
-                                        <span class="nameText">
-                                            울트라 베이지
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        499,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        비츠
-                                        <span class="nameText">
-                                            스튜디오 프로
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        269,400 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            WH-1000XM3
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        477,990 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            WH-CH520
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        69,900 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section05 -->
-        <div class="inner">
-            <section id="sub3_section05">
-                <p class="sub3_titleText">모니터 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            MyView
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        540,060 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ProArt
-                                        <span class="nameText">
-                                            Display
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        3,602,370 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            울트라 HD
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        372,200 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ASUS
-                                        <span class="nameText">
-                                            ROG Swift
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,090,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            울트라기어
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        482,490 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ROG
-                                        <span class="nameText">
-                                            Strix XG249
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        456,990 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            울트라와이드
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        486,620 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ROG
-                                        <span class="nameText">
-                                            Strix XG438
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,770,760 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            울트라파인 5K
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,997,120 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            Pro Display XDR
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        7,899,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section06 -->
-        <div class="inner">
-            <section id="sub3_section06">
-                <p class="sub3_titleText">노트북 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            그램 360
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,497,810 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ASUS
-                                        <span class="nameText">
-                                            TUF Gaming
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,299,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            맥북프로 23
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,696,790 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            맥북에어 22
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,850,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            그램 폴드
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        3,290,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        MS
-                                        <span class="nameText">
-                                            서피스 랩탑 5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,592,000 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        ASUS
-                                        <span class="nameText">
-                                            ROG Strix
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,999,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시북 3
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,190,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시북 360
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,536,500 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시북 프로
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        2,094,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section07 -->
-        <div class="inner">
-            <section id="sub3_section07">
-                <p class="sub3_titleText">핸드폰 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이폰 15 preo
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,562,290 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 S23
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        707,450 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시 S24
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,697,710 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            Z폴드5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,741,400 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            S23+
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        707,450 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이폰 15 Max
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,746,090 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이폰 15
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,300,590 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이폰 14 pro
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,504,910 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            Z플립 5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,168,950 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            S울트라
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,697,710 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section08 -->
-        <div class="inner">
-            <section id="sub3_section08">
-                <p class="sub3_titleText">태블릿 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            울트라 탭
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        397,590 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        MS
-                                        <span class="nameText">
-                                            Surface Pro 9
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,345,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이패드 프로
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,137,790 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이패드 에어
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        783,950 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시탭 A8
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        327,100 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시탭 S8
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,038,430 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시탭 울트라
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,399,000 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            아이패드 미니6
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        724,480 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시탭 S9
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        889,870 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        삼성
-                                        <span class="nameText">
-                                            갤럭시탭 S8+
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        819,380 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- section09 -->
-        <div class="inner">
-            <section id="sub3_section09">
-                <p class="sub3_titleText">기타 인기 순위</p>
-                <p class="sub3_subText">조회, 거래 급상승 &lpar;최근3일&rpar;</p>
-                <div class="swiper sub3_contents_area">
-                    <ul class="swiper-wrapper contentsBox_top">
-                        <li class="swiper-slide contItem01">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">1</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        소니
-                                        <span class="nameText">
-                                            플레이스테이션5
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        651,550 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem02">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">2</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        다이슨
-                                        <span class="nameText">
-                                            에어랩
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        638,790 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem03">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">3</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            스탠바이미 27in
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        800,060 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem04">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">4</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        MS
-                                        <span class="nameText">
-                                            엑스박스 X
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        373,800 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem05">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">5</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            펜슬 C타입
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        1,137,790 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem06">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">6</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        LG
-                                        <span class="nameText">
-                                            스탠바이미 GO
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        864,150 원
-                                    </p>
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem07">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">7</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            에어태그
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        41,400 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem08">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">8</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        닌텐도
-                                        <span class="nameText">
-                                            스위치 OLED
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        370,230 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem09">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">9</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                        다이슨
-                                        <span class="nameText">
-                                            드라이어
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        441,560 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide contItem10">
-                            <a href="javascript:;">
-                                <div class="sub3_contImgBox">
-                                    <div class="sub3_contNumBox">
-                                        <span class="contNum">10</span>
-                                    </div>
-                                    <div class="sub3_contImg"></div>
-                                </div>
-                                <div class="sub3_contText">
-                                    <p class="brandText">
-                                    <p class="brandText">
-                                        애플
-                                        <span class="nameText">
-                                            매직키보드
-                                        </span>
-                                    </p>
-                                    <p class="priceText">
-                                        162,930 원
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
+                    <div class="ask box04"
+                        onclick="$('.popup-base').css('height', ($(document).height() + 3000)); $('.ask_box04-pop').show()">
+                        <img src="img/section5/box3.png" alt="">
+                        <p class="B_text">장기 렌탈</p>
+                        <p class="M_text">장기 렌탈을 해지하고 싶어요.</p>
+                        <p class="S_text">계약 효력 발생후 중도 해지를 할.<br>경우 비용이 발생하고,분할결제<br>중인 제품을 반납해야 돼요<br>계약 해지에 관한 더
+                            자세한
+                            규정은<br>계약서에서 확인이 가능해요.</p>
+                    </div>
 
-    <div class="swiper sub3_aside_swiper fixed">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide01">
-                <a href="#sub3_section01">
-                    <figure></figure>
-                    <span>카메라</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                            <span>카메라</span>
+                    <div class="popup-base ask_box04-pop">
+                        <div class="pop-content">
+                            <p class="btn-xpop">
+                                <a href="javascript:;" onclick="$('.popup-base').hide()">닫기</a>
+                            </p>
+                            <ul class="pop-list">
+                                <li>
+                                    <div class="pop_text_box">
+                                        <img src="img/section5/box3.png" alt="">
+                                        <p class="B_text">장기 렌탈</p>
+                                        <p class="M_text">장기 렌탈을 해지하고 싶어요.</p>
+                                        <p class="S_text">계약 효력 발생후 중도 해지를 할.<br>경우 비용이 발생하고,분할결제<br>중인 제품을 반납해야
+                                            돼요<br>계약 해지에 관한 더
+                                            자세한
+                                            규정은<br>계약서에서 확인이 가능해요.</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide02">
-                <a href="#sub3_section02">
-                    <figure></figure>
-                    <span>스마트워치</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide03">
-                <a href="#sub3_section03">
-                    <figure></figure>
-                    <span>무선이어폰</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide04">
-                <a href="#sub3_section04">
-                    <figure></figure>
-                    <span>헤드셋</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide05">
-                <a href="#sub3_section05">
-                    <figure></figure>
-                    <span>모니터</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide06">
-                <a href="#sub3_section06">
-                    <figure></figure>
-                    <span>노트북</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide07">
-                <a href="#sub3_section07">
-                    <figure></figure>
-                    <span>핸드폰</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide08">
-                <a href="#sub3_section08">
-                    <figure></figure>
-                    <span>태블릿</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="swiper-slide swiper-slide09">
-                <a href="#sub3_section09">
-                    <figure></figure>
-                    <span>기타</span>
-                    <div class="cont_click">
-                        <div>
-                            <figure></figure>
-                        </div>
-                    </div>
-                </a>
+                </div>
+
             </div>
 
-        </div>
+        </section>
+
+
+
+        <footer>
+            <div class="inner">
+                <div class="logo_sns">
+                    <figure class="logo"><a href="#"><img src="img/footer/logo.png" alt=""></a></figure>
+                    <div class="sns">
+                        <a href="javascript:;"><img src="img/footer/insta.png" alt=""></a>
+                        <a href="javascript:;"><img src="img/footer/facebook.png" alt=""></a>
+                        <a href="javascript:;"><img src="img/footer/KakaoTalk.png" alt=""></a>
+                        <a href="javascript:;"><img src="img/footer/youtube.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="menu_info">
+                    <ul class="menu">
+                        <li><a href="javascript:;">회사소개</a></li>
+                        <li><a href="javascript:;">개인정보처리방식</a></li>
+                        <li><a href="javascript:;">이용약관</a></li>
+                        <li><a href="javascript:;">공지사항</a></li>
+                        <li><a href="javascript:;">1:1문의</a></li>
+                    </ul>
+                    <div class="info">
+                        <div class="info01"><span>(주)GetEasy</span>대표:GetEasy
+                            <address>서울강서구 화곡로 149 3층,4층,5층</address>
+                        </div>
+                        <div class="info02"><span>사업자등록번호:000-00-000000</span><br>통신판매업신고번호:0000-0000-0000</div>
+                        <div class="info03"><span>개인정보보호책임자:GetEasy</span>팩스번호:000-000-0000</div>
+                        <div class="info05">이메일:000000@Gmail.com</div>
+                        <div class="info05">COPYRIGHT ©GetEasy All RIGHTS RESERVED</div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <span>고객센터</span>
+                    <p>평일09:00~17:30</p>
+                    <p>점심12:00~13:00</p>
+                    <p>휴무 주말,공휴일</p>
+                </div>
+            </div>
+        </footer>
+
 
     </div>
+
+    </div>
+
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/javascript_sub3_m.js"></script>
 
-    <script>
-        let off = $('#eleHeigh');
-        let eleHeigh = off.offset().top
-        console.log(eleHeigh)
-    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

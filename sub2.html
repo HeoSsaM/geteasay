@@ -365,6 +365,16 @@
 
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <script>
+        window.onload = function() {
+            // 뷰포트의 너비를 확인하여 모바일 여부를 판단합니다.
+            var isMobile = window.innerWidth <= 480; // 예시로 너비가 768px 이하인 경우를 모바일로 간주합니다.
+
+            // 모바일인 경우 index_m.html을, 그렇지 않은 경우 index.html을 로드합니다.
+            var pageToLoad = isMobile ? 'sub2_m.html' : 'sub2.html';
+            window.location.href = pageToLoad;
+        }
+    </script>
     <script src="js/javascript_sub2.js"></script>
 </body>
 
